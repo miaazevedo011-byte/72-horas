@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Barlow Condensed', sans-serif;
+    background-color: #111319;
+    color: #e2e2ea;
+    overflow-x: hidden;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'Space Mono', monospace;
+  }
+}
+
+/* Custom Nanquim Graphic Novel & Tactical Utilities */
+.font-barlow {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.font-space-mono {
+  font-family: 'Space Mono', monospace;
+}
+
+/* Chamfered tactical edges for buttons & panels */
+.chamfer-btn {
+  clip-path: polygon(
+    0 0,
+    calc(100% - 10px) 0,
+    100% 10px,
+    100% 100%,
+    10px 100%,
+    0 calc(100% - 10px)
+  );
+}
+
+.chamfer-panel {
+  clip-path: polygon(
+    0 0,
+    calc(100% - 14px) 0,
+    100% 14px,
+    100% 100%,
+    14px 100%,
+    0 calc(100% - 14px)
+  );
+}
+
+/* Graphic novel comic border effect */
+.ink-border {
+  border: 1px solid #282a30;
+  box-shadow: 0 0 0 1px rgba(18, 19, 22, 0.9), inset 0 0 12px rgba(0, 0, 0, 0.7);
+}
+
+.ink-border-amber {
+  border: 1px solid rgba(229, 169, 60, 0.4);
+  box-shadow: 0 0 10px rgba(229, 169, 60, 0.15), inset 0 0 10px rgba(229, 169, 60, 0.05);
+}
+
+.ink-border-crimson {
+  border: 1px solid rgba(214, 64, 69, 0.5);
+  box-shadow: 0 0 12px rgba(214, 64, 69, 0.2), inset 0 0 10px rgba(214, 64, 69, 0.1);
+}
+
+/* Scanline / Grid overlay */
+.tactical-grid {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(40, 42, 48, 0.3) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(40, 42, 48, 0.3) 1px, transparent 1px);
+}
+
+.scanlines {
+  background: linear-gradient(
+    rgba(18, 16, 16, 0) 50%, 
+    rgba(0, 0, 0, 0.25) 50%
+  );
+  background-size: 100% 4px;
+}
+
+/* Radial vignette */
+.radial-vignette {
+  background: radial-gradient(circle, transparent 55%, rgba(10, 11, 14, 0.88) 100%);
+}
+
+/* Player golden glow */
+.player-glow {
+  filter: drop-shadow(0 0 14px rgba(244, 196, 88, 0.85)) drop-shadow(0 0 4px rgba(225, 169, 60, 0.9));
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #111319;
+}
+::-webkit-scrollbar-thumb {
+  background: #282a30;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #E5A93C;
+}

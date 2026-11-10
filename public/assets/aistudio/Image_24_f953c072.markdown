@@ -1,0 +1,205 @@
+---
+name: 72 Horas Survival Narrative
+colors:
+  surface: '#111319'
+  surface-dim: '#111319'
+  surface-bright: '#373940'
+  surface-container-lowest: '#0c0e14'
+  surface-container-low: '#191b21'
+  surface-container: '#1d1f26'
+  surface-container-high: '#282a30'
+  surface-container-highest: '#33353b'
+  on-surface: '#e2e2ea'
+  on-surface-variant: '#d4c4b0'
+  inverse-surface: '#e2e2ea'
+  inverse-on-surface: '#2e3037'
+  outline: '#9d8f7c'
+  outline-variant: '#504535'
+  surface-tint: '#fabc4d'
+  primary: '#ffc665'
+  on-primary: '#432c00'
+  primary-container: '#e5a93c'
+  on-primary-container: '#5e4000'
+  inverse-primary: '#7e5700'
+  secondary: '#a4c9ff'
+  on-secondary: '#00315d'
+  secondary-container: '#0164b4'
+  on-secondary-container: '#d0e1ff'
+  tertiary: '#ffc0bd'
+  on-tertiary: '#68000f'
+  tertiary-container: '#ff9794'
+  on-tertiary-container: '#90041a'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#ffdead'
+  primary-fixed-dim: '#fabc4d'
+  on-primary-fixed: '#281900'
+  on-primary-fixed-variant: '#604100'
+  secondary-fixed: '#d4e3ff'
+  secondary-fixed-dim: '#a4c9ff'
+  on-secondary-fixed: '#001c39'
+  on-secondary-fixed-variant: '#004883'
+  tertiary-fixed: '#ffdad8'
+  tertiary-fixed-dim: '#ffb3b0'
+  on-tertiary-fixed: '#410006'
+  on-tertiary-fixed-variant: '#91061b'
+  background: '#111319'
+  on-background: '#e2e2ea'
+  surface-variant: '#33353b'
+typography:
+  display-lg:
+    fontFamily: Barlow Condensed
+    fontSize: 56px
+    fontWeight: '800'
+    lineHeight: 60px
+    letterSpacing: 0.05em
+  display-lg-mobile:
+    fontFamily: Barlow Condensed
+    fontSize: 36px
+    fontWeight: '800'
+    lineHeight: 40px
+    letterSpacing: 0.04em
+  headline-xl:
+    fontFamily: Barlow Condensed
+    fontSize: 40px
+    fontWeight: '700'
+    lineHeight: 44px
+    letterSpacing: 0.04em
+  headline-xl-mobile:
+    fontFamily: Barlow Condensed
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 32px
+    letterSpacing: 0.03em
+  headline-md:
+    fontFamily: Barlow Condensed
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: 0.03em
+  title-md:
+    fontFamily: Barlow Condensed
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 24px
+    letterSpacing: 0.02em
+  body-lg:
+    fontFamily: Barlow Condensed
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 24px
+    letterSpacing: 0.01em
+  body-md:
+    fontFamily: Barlow Condensed
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 22px
+    letterSpacing: 0.01em
+  label-md:
+    fontFamily: Space Mono
+    fontSize: 13px
+    fontWeight: '500'
+    lineHeight: 18px
+    letterSpacing: 0.08em
+  label-sm:
+    fontFamily: Space Mono
+    fontSize: 11px
+    fontWeight: '400'
+    lineHeight: 14px
+    letterSpacing: 0.1em
+  code-telemetry:
+    fontFamily: Space Mono
+    fontSize: 12px
+    fontWeight: '700'
+    lineHeight: 16px
+    letterSpacing: 0.06em
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-mobile: 0.75rem
+  margin: 2rem
+  margin-mobile: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+The design system establishes a visceral, high-stakes aesthetic for an interactive graphic novel survival experience. It merges dark atmospheric graphic illustration with military-grade tactical field telemetry. 
+
+The interface reflects urgency, resource depletion, and gritty storytelling. Visual cues evoke hand-drawn inked panels combined with a translucent, tactical survival HUD. The aesthetic relies on moody, charcoal-tinted dark backdrops, razor-sharp borders, condensed technical typography, and luminous hazard accents that cut through the shadows. 
+
+Every UI element should feel field-fabricated and urgent—neither sterile nor arcade-like. Surfaces evoke scratched ballistic glass, field monitors, and printed graphic novel gutters.
+
+## Colors
+The palette is built upon a layered hierarchy of desaturated tactical darks punctuated by luminous operational indicators:
+
+- **Primary Tactical Amber (`#E5A93C`, highlight `#F4C458`):** Denotes focus, primary user agency, active selections, fuel, and time-remaining telemetry.
+- **Secondary Telemetry Cyan (`#4A90E2`):** Reserved for technical logs, intelligence data, radio transmissions, and environmental diagnostics.
+- **Tertiary Hazard Crimson (`#D64045`):** Expresses mortal threat, critical structural failure, trauma, bleed-out timers, and irreversible choices.
+- **Vitality Green (`#48BB78`):** Used strictly for stabilized states, successful rationing, medical intervention, and biological status.
+- **Neutral Charcoal Layers (`#121316` Canvas, `#1A1C22` Base Panels, `#262930` Elevated Surfaces):** Provides a heavy, ink-rich graphic novel backdrop that preserves dark adaptation and heightens dread.
+
+Text colors strictly contrast: Primary text uses `#F0F1F3` (ink off-white), secondary text `#9DA3AE`, and disabled or passive data `#4F5563`.
+
+## Typography
+Typographic rules reflect survival field manuals and graphic novel narration:
+
+1. **Hierarchy & Tone:** Headlines and dramatic narration use **Barlow Condensed** in uppercase with expanded tracking for maximum urgency and dense information architecture. Dialogue and field journals utilize regular sentence casing.
+2. **Telemetry & Metadata:** Timers, coordinates, ammo counts, inventory volumes, and system alerts rely strictly on **Space Mono**. All uppercase telemetry labels (`label-sm`, `label-md`) must feature generous tracking to mirror screen-printed mil-spec stencil markings.
+3. **Pacing:** Narrative text blocks must maintain tight, controlled line heights to reinforce an enclosed, claustrophobic atmosphere.
+
+## Layout & Spacing
+The layout simulates a hybrid between an asymmetric graphic novel page and an integrated survival helmet HUD.
+
+- **Grid Architecture:** Desktop views implement a 12-column fluid grid framed within a fixed aspect containment container with safe padding to support narrative framing. Mobile collapses to a single-column stacked format with a persistent tactical status bar at the top and critical decision triggers anchored to the bottom.
+- **Graphic Gutters:** Content panels use fixed `gutter` divisions that double as graphic panel dividers, evoking comic book frames.
+- **Rhythm & Density:** High data density is balanced by dark negative space around primary story illustrations. Telemetry modules cluster tightly with `space-xs` and `space-sm` gaps, while overarching narrative branches and interactive modules split using `space-lg` and `space-xl`.
+
+## Elevation & Depth
+Depth is created through atmospheric lighting and layered paneling rather than traditional soft drop shadows:
+
+- **HUD Glassmorphism:** Overlay surfaces use a base of `#1A1C22` rendered at 80%–90% opacity paired with a subtle background blur (`backdrop-blur: 8px`). This reveals shifting graphic novel background art while maintaining legibility.
+- **Inked Outlines & Tactical Borders:** Modals, item slots, and HUD components use crisp 1px borders colored `#262930` or semi-opaque amber (`rgba(229, 169, 60, 0.3)`). Critical items feature an offset double-line border mimicking technical drafting marks.
+- **Atmospheric Vignette:** A full-screen radial vignette gradient overlays the perimeter (`radial-gradient(circle, transparent 60%, rgba(10, 11, 13, 0.85) 100%)`) to create tunnel vision and center visual attention.
+- **Tactical Backlighting:** Active modal overlays or life-threatening choices emit a subtle directional edge-glow using Hazard Crimson or Amber with tight blur radiuses (0px to 8px) and 25% opacity.
+
+## Shapes
+Shapes must feel machined, resilient, and angular:
+
+- **Corner Treatment:** The system enforces minimal corner rounding (`roundedness: 1`, 0.25rem base radius). Corner radiuses never exceed 0.5rem, preserving an industrial, technical look.
+- **Beveled & Chamfered Geometry:** Primary tactical buttons, dialogue decision nodes, and HUD gauges leverage 45-degree chamfered corner cuts (clip-path) on top-right and bottom-left edges to evoke rugged military hardware.
+- **Framing Brackets:** Key cards and dialog frames utilize decorative geometric corner tick-marks (L-brackets) to reinforce the sense of an optical rangefinder or field instrument.
+
+## Components
+
+### Buttons & Interactive Choices
+- **Primary Survival Action:** Chamfered button with an amber background (`#E5A93C`), deep charcoal text (`#121316`), bold condensed font, and high-contrast tactile feedback. Hover states flare into `#F4C458` with a 1px tactical outline.
+- **Critical Narrative Branch:** Contained within a semi-transparent HUD card with an inked 1px border. Hovering initiates a subtle crimson or amber fill transition accompanied by a technical cursor crosshair.
+- **Disabled Actions:** Muted dark surface (`#1A1C22`), cross-hatch diagonal slash pattern overlay, and dimmed Space Mono status labels indicating missing resources.
+
+### Tactical HUD & Vital Chips
+- **Resource Chips:** Compact rectangular indicators with 1px border framing an icon, monospaced value, and a 2px micro-progress bar representing biological decay (Hunger, Hydration, Exposure, Infection).
+- **Survival Countdown Clock (The 72h Gauge):** A prominent countdown HUD component using Space Mono bold numbers flanked by a segmented mechanical progress rail. Color dynamically shifts from Tactical Amber to Hazard Crimson when below 12 hours.
+
+### Inventory & Equipment Cards
+- **Grid Item Slots:** Strict square or 4:3 cards with `#1A1C22` semi-transparent backgrounds and etched borders. Equipped or active items feature an amber corner dog-ear badge. Durability meters sit flush along the bottom edge as 2px solid lines.
+
+### Narrative Dialogue & Log Lists
+- **Text Logs:** Monospaced transcripts tagged with absolute time stamps (`[071:42:15]`) in Cyan (`#4A90E2`). Speaker identifiers are bracketed in uppercase Barlow Condensed.
+- **Choice Lists:** Stacked vertical options separated by 1px graphic dividers. Focused options trigger an active left border tick in amber with an audio-visual click effect.
+
+### Input & Radio Selectors
+- **Tactical Checkboxes:** Square checkboxes with an inner micro-diamond or tactical crosshair fill rather than a rounded tick mark.
+- **Radio Buttons:** Octagonal or chamfered square nodes with an inner dot indicator.
+- **Code Inputs & Keypads:** Monospaced segmented input blocks, simulating rugged hardware membrane keys with immediate, crisp state transitions.

@@ -1,0 +1,6 @@
+{
+  "name": "72 Horas - Sobrevivência Narrativa 2D",
+  "description": "Um jogo de sobrevivência narrativa 2D em estilo graphic novel nanquim onde você precisa sobreviver a 72 horas de cerco em um refúgio isolado.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
